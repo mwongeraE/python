@@ -34,3 +34,6 @@ def spam():
     return eggs
         
 print spam()
+
+#commenting
+The # sign is for comments. A comment is a line of text that Python won't try to run as code. It's just for humans to read.
