@@ -70,3 +70,15 @@ Modulo returns the remainder from a division.
 
 So, if you type 3 % 2, it will return 1, because 2 goes into 3 evenly once, with 1 left over.
 
+#Strings
+
+Another useful data type is the string. A string can contain letters, numbers, and symbols.
+
+name = "Ryan"
+age = "19"
+food = "cheese"
+
+Strings need to be within quotes.
+
+
+
