@@ -126,3 +126,11 @@ str()
  #concatenation.
  
  print "Life " + "of " + "Brian"
+ 
+#Explicit String Conversion
+
+Sometimes you need to combine a string with something that isn't a string. In order to do that, you have to convert the non-string into a string.
+
+print "I have " + str(2) + " coconuts!"
+
+This will print I have 2 coconuts!.
