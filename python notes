@@ -1,4 +1,27 @@
+#variables
 Creating web apps,games and search engines all involve storing and working with different types of data. They do so using variables. A variable stores a place of data, and gives it a specific name.
 
 my_variable = 10
+
+#boolean
+A boolean is like a light switch. It can only have two values. Just like a light switch can only be on or off, a boolean can only be True or False.
+
+my_int = 7
+
+my_float = 1.23
+
+my_bool = True
+
+#reassigning
+You can change the value of a variable by "reassigning" it, like this:
+
+my_int = 7
+
+-Change the value of my_int to 3
+
+my_int =3
+
+# Here's some code that will print my_int to the console:
+
+print my_int
 
