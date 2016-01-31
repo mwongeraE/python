@@ -55,3 +55,12 @@ subtraction = 108 - 204
 multiplication = 108 * 0.5
 
 division = 108 / 9
+
+#Exponentiation
+
+you can combine math with other data types (e.g. booleans) and commands to create useful programs. Calculators just stick to numbers.
+
+Now let's work with exponents.
+
+eight = 2 ** 3
+
