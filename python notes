@@ -25,3 +25,12 @@ my_int =3
 
 print my_int
 
+#Whitespace
+
+In Python, whitespace is used to structure code. Whitespace is important, so you have to be careful with how you use it.
+
+def spam():
+    eggs = 12
+    return eggs
+        
+print spam()
