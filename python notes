@@ -105,3 +105,17 @@ Next, we create a new variable called n and set it to "n", the character at inde
 
 In Python, we start counting the index from zero instead of one.
 
+#String methods
+
+String methods let you perform specific tasks for strings.
+
+We'll focus on four string methods:
+
+len()
+
+lower()
+
+upper()
+
+str()
+
