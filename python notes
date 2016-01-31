@@ -43,3 +43,15 @@ multiline commenting
 """Sipping from your cup 'til it runneth over,
 Holy Grail.
 """
+
+#Math
+
+You can add, subtract, multiply, divide numbers like this
+
+addition = 72 + 23
+
+subtraction = 108 - 204
+
+multiplication = 108 * 0.5
+
+division = 108 / 9
