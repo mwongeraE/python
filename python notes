@@ -119,3 +119,6 @@ upper()
 
 str()
 
+ use the lower() method to get rid of all the capitalization in your strings.
+ 
+ The str() method turns non-strings into strings! 
