@@ -64,3 +64,9 @@ Now let's work with exponents.
 
 eight = 2 ** 3
 
+#Modulo
+
+Modulo returns the remainder from a division.
+
+So, if you type 3 % 2, it will return 1, because 2 goes into 3 evenly once, with 1 left over.
+
