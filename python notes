@@ -208,5 +208,24 @@ if is a conditional statement that executes some specified code after checking i
 Here's an example of if statement syntax:
 
 if 8 < 9:
+
     print "Eight is less than nine!"
+    
 In this example, 8 < 9 is the checked expression and print "Eight is less than nine!" is the specified code.
+
+#2
+
+def using_control_once():
+
+    if 3 < 6:
+        return "Success #1"
+
+def using_control_again():
+
+    if "Alpha" == "Alpha":
+    
+        return "Success #2"
+
+print using_control_once()
+
+print using_control_again()
