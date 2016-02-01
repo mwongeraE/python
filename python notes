@@ -134,3 +134,21 @@ Sometimes you need to combine a string with something that isn't a string. In or
 print "I have " + str(2) + " coconuts!"
 
 This will print I have 2 coconuts!.
+
+#string formatting
+1.When you want to print a variable with a string, there is a better method than concatenating strings together.
+
+name = "Mike"
+print "Hello %s" % (name)
+
+#The datetime Library
+
+A lot of times you want to keep track of when something happened. We can do so in Python using datetime.
+
+#Getting the Current Date and Time
+We can use a function called datetime.now() to retrieve the current date and time.
+
+from datetime import datetime
+
+print datetime.now()
+The first line imports the datetime library so that we can use it.
