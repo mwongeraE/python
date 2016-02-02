@@ -240,3 +240,87 @@ elif 8 < 9:
     print "I get printed!"
 else:
     print "I also don't get printed!"
+    
+    
+#LYNDA PYTHON INTRODUCTION
+a, b = 0,1
+while b < 50:
+   print(b)
+   a, b = b, a+b
+   print ("Done. ")
+   
+
+   
+fh =open('lines.txt')
+for line in fh.readlines():
+    print(line, end='')
+    
+    
+#REUSING CODE
+
+def isprime (n):
+    if n == 1:
+        print("1 is special")
+        return False
+    for x in range (2, n):
+        if n % x == 0:
+            print("{}equals {} x {}".format(n, x, n // x))
+            return False
+            
+     else:
+         print (n, "is a prime number")
+         return True
+         
+for n in range(1, 20):
+      isprime(n)
+      
+      
+#Generators
+def isprime (n):
+    if n == 1:
+        return False
+    for x in range (2, n):
+        if n % x == 0:
+            return False
+            
+    else:
+        return True
+        
+def primes(n = 1):
+    while (True):
+        if isprime(n): yield n
+        n+=1
+        
+for n in primes(n = 1):
+    if n > 100: break
+    print(n)
+
+    
+ #Reusability of code   
+ class Fibonacci():
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    
+    def series(self):
+        while(True):
+            yield(self.b)
+            self.a, self.b = self.b, self.a + self.b
+            
+f = Fibonacci(0,1) //instantiated
+for r in f.series():
+    if r > 100: break
+    print(r, end='')
+    
+ #Handling errors with exceptions
+ 
+ try:
+     fh open('xlines.txt')
+     for line in fh.readlines():
+         print(line)
+except IOError as e:
+    print("something bad happened ({})".format(e))
+    
+ print ("after badness")   
+    
+    
