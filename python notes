@@ -1,3 +1,19 @@
+#Variables, Objects and values
+everything in python is an object
+
+every object has an ID,Type and Value
+
+#MUTABLE AND IMMUTABLE OBJECTS
+
+mutable objects may change value, immutable objects may not
+ 
+Most fundamental types in python are immutable, numbers, strings, tuples
+
+mutable objects include:
+
+lists, dictionaries, other objects depending upon implementation
+
+
 #variables
 Creating web apps,games and search engines all involve storing and working with different types of data. They do so using variables. A variable stores a place of data, and gives it a specific name.
 
