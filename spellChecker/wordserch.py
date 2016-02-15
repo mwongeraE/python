@@ -1,12 +1,10 @@
 
 import re
+fh = open('raven.txt')
+x = raw_input ("enter word")
 
-def main():
-    fh = open('raven.txt')
-    for line in fh:
-    	match = re.search('rare', line)
-        if match:
-            print(line)
+if re-search (r"[x]",fh,re.M):
 
-if __name__ == "__main__": main()
-
+    print(x +  "has been found")
+else:
+    print ("sorry " +x+ "not found")

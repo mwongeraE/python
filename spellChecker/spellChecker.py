@@ -11,7 +11,7 @@ def spellcheck(sentence):
             ret.append(item)
     return ret
 def main():
-    sentence = input("Please enter a sentence\n")
+    sentence = raw_input("Please enter a sentence\n")
     lst=[]
     lst=spellcheck(sentence)
     print(lst)
